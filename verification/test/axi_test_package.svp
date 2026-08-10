@@ -1,0 +1,12 @@
+package axi_test_package;
+
+import uvm_pkg::*;
+`include "uvm_macros.svh"
+import axi_agent_package::*;
+import axi_env_package::*;
+`include "axi_write_seq.sv"
+`include "axi_read_seq.sv"
+`include "axi_wr_seq.sv"
+`include "axi_error_seq.sv"
+`include "axi_test.sv"
+endpackage
